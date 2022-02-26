@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/royalcrm",
+            "outputPath": "dist/mycrm",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -72,10 +72,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "royalcrm:build:production"
+              "browserTarget": "mycrm:build:production"
             },
             "development": {
-              "browserTarget": "royalcrm:build:development"
+              "browserTarget": "mycrm:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -83,7 +83,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "royalcrm:build"
+            "browserTarget": "mycrm:build"
           }
         },
         "test": {
@@ -101,5 +101,5 @@
       }
     }
   },
-  "defaultProject": "royalcrm"
+  "defaultProject": "mycrm"
 }
